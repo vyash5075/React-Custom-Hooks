@@ -19,6 +19,7 @@ import UseGeolocation from "./useGeolocation/GeolocaonComponent";
 import UseSize from '../src/useSize/useSize'
 import UseEffectOnce from '../src/useEffectOnce/EffectOnceComponent'
 import UseClickOutside from '../src/useClickOutside/ClickOutSideComponent'
+import UseDarkMode from '../src/useDarkMode/DarkModeComponent'
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
       {/* <UseSize/> */}
       <UseEffectOnce/>
       <UseClickOutside/>
+      <UseDarkMode/>
     </div>
   );
 }
