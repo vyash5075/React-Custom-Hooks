@@ -14,6 +14,8 @@ import UseEventListener from "../src/useEventListener/EventListenerComponent";
 import UseOnScreen from "../src/useOnScreen/OnScreenComponent";
 import UseWindowSize from "../src/usWindowSize/WindowSizeComponent";
 import UseDeepComapareeffect from '../src/useDeepCompareEffect/DeepCompareEffectComponent'
+import UseMediaQuery from "./useMediaQuery/MediaQueryComponent";
+import UseGeolocation from "./useGeolocation/GeolocaonComponent";
 
 function App() {
   return (
@@ -33,6 +35,8 @@ function App() {
       <UseOnScreen />
       <UseWindowSize />
       <UseDeepComapareeffect/>
+      <UseMediaQuery/>
+      <UseGeolocation/>
     </div>
   );
 }
