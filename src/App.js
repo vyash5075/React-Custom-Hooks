@@ -10,6 +10,8 @@ import UseStorage from '../src/useStorage/StoageComponent'
 import UseAsync from '../src/Use-Async/AsyncComponent'
 import UseFetch from '../src/useFetch/FetchComponent'
 import UseScript from '../src/useScript/ScriptComponent'
+import UseEventListener from '../src/useEventListener/EventListenerComponent'
+import UseOnScreen from '../src/useOnScreen/OnScreenComponent'
 function App() {
   return (
     <div className="App">
@@ -24,6 +26,8 @@ function App() {
      <UseAsync/>
      <UseFetch/>
      <UseScript/>
+     <UseEventListener/>
+     <UseOnScreen/>
     </div>
   );
 }
