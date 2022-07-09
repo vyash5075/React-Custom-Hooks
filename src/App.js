@@ -16,6 +16,7 @@ import UseWindowSize from "../src/usWindowSize/WindowSizeComponent";
 import UseDeepComapareeffect from '../src/useDeepCompareEffect/DeepCompareEffectComponent'
 import UseMediaQuery from "./useMediaQuery/MediaQueryComponent";
 import UseGeolocation from "./useGeolocation/GeolocaonComponent";
+import UseSize from '../src/useSize/useSize'
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
       <UseDeepComapareeffect/>
       <UseMediaQuery/>
       <UseGeolocation/>
+      <UseSize/>
     </div>
   );
 }
