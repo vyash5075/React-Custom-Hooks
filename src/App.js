@@ -23,6 +23,9 @@ import UseDarkMode from '../src/useDarkMode/DarkModeComponent'
 // import UseCopyToClipBoard from '../src/useCopyToClipBoard/CopyToClipBoardComponent'
 // simport UseCookie from '../src/useCookie/CookieComponent'
 import UseTranslation from "./useTranslation/TranslationComponent";
+import UseOnlineStatus from "./useOnlineStatus/OnlineStatsComponent";
+import UseRenderCount from "./useRenderCount/RenderCountComponent";
+import UseDebugInformation from "./useDebugInformation/DebugInformationComponent";
 
 function App() {
   return (
@@ -51,6 +54,9 @@ function App() {
       {/* <UseCopyToClipBoard/> */}
       {/* <UseCookie/> */}
       {/* <UseTranslation/> */}
+      <UseOnlineStatus/>
+      <UseRenderCount/>
+      <UseDebugInformation/>
     </div>
   );
 }
