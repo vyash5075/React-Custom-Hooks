@@ -8,19 +8,20 @@ import UsePrevious from '../src/usePrevious/PreviousComponent'
 import UseStateWithHistory from '../src/useStateWithHistory/StateWithHistoryComponent'
 import UseStorage from '../src/useStorage/StoageComponent'
 import UseAsync from '../src/Use-Async/AsyncComponent'
+import UseFetch from '../src/useFetch/FetchComponent'
 function App() {
   return (
     <div className="App">
       <ToggleComponent/>
       <TimeOutComponent/> 
       <DebounceComponent/>
-     
       <UpdateEffect/>
      <UseArray/>
      <UsePrevious/>
      <UseStateWithHistory/>
      <UseStorage/>
      <UseAsync/>
+     <UseFetch/>
     </div>
   );
 }
