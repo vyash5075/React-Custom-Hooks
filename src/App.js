@@ -1,6 +1,6 @@
 import "./App.css";
 import UseToggle from "../src/Toggle/ToggleComponent";
-import useTimeout from "../src/useTimout/TimeCompoent";
+import UseTimeout from "../src/useTimout/TimeCompoent";
 import UseDebounce from "../src/useDebounce/DebounceComponent";
 import UseUpdateEffect from "../src/useUpdateEffect/UpdateEffectComponent";
 import UseArray from "../src/useArray/ArrayComponent";
@@ -17,12 +17,14 @@ import UseDeepComapareeffect from '../src/useDeepCompareEffect/DeepCompareEffect
 import UseMediaQuery from "./useMediaQuery/MediaQueryComponent";
 import UseGeolocation from "./useGeolocation/GeolocaonComponent";
 import UseSize from '../src/useSize/useSize'
+import UseEffectOnce from '../src/useEffectOnce/EffectOnceComponent'
+import UseClickOutside from '../src/useClickOutside/ClickOutSideComponent'
 
 function App() {
   return (
     <div className="App">
       <UseToggle />
-      <useTimeout />
+      <UseTimeout />
       <UseDebounce />
       <UseUpdateEffect />
       <UseArray />
@@ -38,7 +40,9 @@ function App() {
       <UseDeepComapareeffect/>
       <UseMediaQuery/>
       <UseGeolocation/>
-      <UseSize/>
+      {/* <UseSize/> */}
+      <UseEffectOnce/>
+      <UseClickOutside/>
     </div>
   );
 }
