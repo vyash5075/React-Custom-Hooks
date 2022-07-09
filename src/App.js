@@ -22,17 +22,18 @@ import UseClickOutside from '../src/useClickOutside/ClickOutSideComponent'
 import UseDarkMode from '../src/useDarkMode/DarkModeComponent'
 // import UseCopyToClipBoard from '../src/useCopyToClipBoard/CopyToClipBoardComponent'
 // simport UseCookie from '../src/useCookie/CookieComponent'
+import UseTranslation from "./useTranslation/TranslationComponent";
 
 function App() {
   return (
     <div className="App">
-      <UseToggle />
+      {/* <UseToggle />
       <UseTimeout />
       <UseDebounce />
       <UseUpdateEffect />
-      <UseArray />
+      <UseArray /> */}
       <UsePrevious />
-      <UseStateWithHistory />
+      {/* <UseStateWithHistory />
       <UseStorage />
       <UseAsync />
       <UseFetch />
@@ -42,13 +43,14 @@ function App() {
       <UseWindowSize />
       <UseDeepComapareeffect/>
       <UseMediaQuery/>
-      <UseGeolocation/>
+      <UseGeolocation/> */}
       {/* <UseSize/> */}
-      <UseEffectOnce/>
+      {/* <UseEffectOnce/>
       <UseClickOutside/>
-      <UseDarkMode/>
+      <UseDarkMode/> */}
       {/* <UseCopyToClipBoard/> */}
       {/* <UseCookie/> */}
+      {/* <UseTranslation/> */}
     </div>
   );
 }
