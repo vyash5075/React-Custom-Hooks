@@ -20,6 +20,8 @@ import UseSize from '../src/useSize/useSize'
 import UseEffectOnce from '../src/useEffectOnce/EffectOnceComponent'
 import UseClickOutside from '../src/useClickOutside/ClickOutSideComponent'
 import UseDarkMode from '../src/useDarkMode/DarkModeComponent'
+// import UseCopyToClipBoard from '../src/useCopyToClipBoard/CopyToClipBoardComponent'
+// simport UseCookie from '../src/useCookie/CookieComponent'
 
 function App() {
   return (
@@ -45,6 +47,8 @@ function App() {
       <UseEffectOnce/>
       <UseClickOutside/>
       <UseDarkMode/>
+      {/* <UseCopyToClipBoard/> */}
+      {/* <UseCookie/> */}
     </div>
   );
 }
