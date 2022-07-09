@@ -9,6 +9,7 @@ import UseStateWithHistory from '../src/useStateWithHistory/StateWithHistoryComp
 import UseStorage from '../src/useStorage/StoageComponent'
 import UseAsync from '../src/Use-Async/AsyncComponent'
 import UseFetch from '../src/useFetch/FetchComponent'
+import UseScript from '../src/useScript/ScriptComponent'
 function App() {
   return (
     <div className="App">
@@ -22,6 +23,7 @@ function App() {
      <UseStorage/>
      <UseAsync/>
      <UseFetch/>
+     <UseScript/>
     </div>
   );
 }
