@@ -27,7 +27,7 @@ import UseOnlineStatus from "./useOnlineStatus/OnlineStatsComponent";
 import UseRenderCount from "./useRenderCount/RenderCountComponent";
 import UseDebugInformation from "./useDebugInformation/DebugInformationComponent";
 import UseHover from "./useHover/HoverComponent";
-
+import UseLongPress from "./useLongPress.js/LongPressComponent";
 function App() {
   return (
     <div className="App">
@@ -59,6 +59,8 @@ function App() {
       <UseRenderCount/>
       <UseDebugInformation/>
       <UseHover/>
+      <UseLongPress/>
+      
     </div>
   );
 }

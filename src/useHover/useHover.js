@@ -1,5 +1,5 @@
 import { useState } from "react"
-import useEventListener from "../13-useEventListener/useEventListener"
+import useEventListener from "../useEventListener/useEventListener"
 
 export default function useHover(ref) {
   const [hovered, setHovered] = useState(false)
