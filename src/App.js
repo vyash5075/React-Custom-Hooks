@@ -4,6 +4,10 @@ import TimeOutComponent from '../src/useTimout/TimeCompoent'
 import DebounceComponent from '../src/useDebounce/DebounceComponent'
 import UpdateEffect from '../src/useUpdateEffect/UpdateEffectComponent'
 import UseArray from '../src/useArray/ArrayComponent'
+import UsePrevious from '../src/usePrevious/PreviousComponent'
+import UseStateWithHistory from '../src/useStateWithHistory/StateWithHistoryComponent'
+import UseStorage from '../src/useStorage/StoageComponent'
+import UseAsync from '../src/Use-Async/AsyncComponent'
 function App() {
   return (
     <div className="App">
@@ -13,6 +17,10 @@ function App() {
      
       <UpdateEffect/>
      <UseArray/>
+     <UsePrevious/>
+     <UseStateWithHistory/>
+     <UseStorage/>
+     <UseAsync/>
     </div>
   );
 }
