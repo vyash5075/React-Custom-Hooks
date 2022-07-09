@@ -26,6 +26,7 @@ import UseTranslation from "./useTranslation/TranslationComponent";
 import UseOnlineStatus from "./useOnlineStatus/OnlineStatsComponent";
 import UseRenderCount from "./useRenderCount/RenderCountComponent";
 import UseDebugInformation from "./useDebugInformation/DebugInformationComponent";
+import UseHover from "./useHover/HoverComponent";
 
 function App() {
   return (
@@ -57,6 +58,7 @@ function App() {
       <UseOnlineStatus/>
       <UseRenderCount/>
       <UseDebugInformation/>
+      <UseHover/>
     </div>
   );
 }
